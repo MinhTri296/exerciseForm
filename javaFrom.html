@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="maim.css">
+</head>
+<body>
+    <form>
+    <h1><th>Test javascript Form Validation</th></h1>
+    <table>
+        <tr>
+            <td>Name<span style="color:red;">*</span> </td>
+            <td><input type="text" name="name" required></td>
+        </tr> 
+        <tr>
+            <td>Adress<span style="color: red;">*</span></td>
+            <td><input type="text" name="Adress" required></td>
+        </tr>
+        <tr>
+        <td>Zip code<span style="color:red;">*</span></td>
+        <td><input type="text" name="Zipcode" required></td>
+        </tr>
+        <tr>
+            <td>Country<span style="color: red;">*</span></td>
+            <td> <select>
+                <OPtion value="HU"> HUE</OPtion>
+                <OPtion value="HA"> HA NOI</OPtion>
+                <OPtion value="DA"> DA NANG</OPtion>
+            </select></td>
+        </tr>
+        <tr>
+            <td>Gender<span style="color: red;">*</span></td>
+            <td>
+                <input type="radio" name="Gender">Male
+                <input type="radio" name="Gender">Female
+            </td>
+        </tr>
+        <tr>
+            <td>Preferences<span style="color: red;">*</span></td>
+            <td>
+                <input type="checkbox">Red
+                <input type="checkbox">Green
+                <input type="checkbox">Blue
+            </td>
+        </tr>
+        <tr>
+            <td>Phone <span style="color: red;">*</span></td>
+            <td>
+                <input type="tel" required>
+            </td>
+        </tr>
+        <tr>
+            <td>Email <span style="color: red;">*</span></td>
+            <td><input type="email" name="Email" required></td>
+        </tr>
+        <tr>
+            <td>Password(6-8characters)<span style="color: red;">*</span></td>
+            <td><input type="password" name="Email" required></td>  
+        </tr>
+        <tr>
+            <td>Verify password<span style="color: red;">*</span></td>
+            <td><input type="password" name="Verify" required></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+            <input type="submit" value="Send">
+            <input type="reset" value="Clear">
+        </td>
+        </tr>
+
+    </table>
+</form>
+</body>
+</html>
