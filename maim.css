@@ -1,3 +1,31 @@
-.sao{
-    text-align: left;
+.table{ 
+    height: 900px;
+    width: 900px;
+    text-align: center;
+    border-collapse: collapse;
+    background-color: orange;
 }
+.cell1{
+    height: 100px;
+    width: 100px;
+    border: 1px;
+    border-color: white;
+    text-align: center;
+    background-color: white;
+
+}
+.cell2{
+    width: 100px;
+    height: 100px;
+    border: 1px;
+    border-color: white;
+    text-align:center;
+    background-color: black;
+}
+.box{
+    text-align: center;
+}
+.head{
+   background-color: orange;
+}
+
