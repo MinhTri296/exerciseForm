@@ -1,0 +1,28 @@
+select{
+    width: 400px;
+}
+body{
+   font-size: 12px;
+   width: 900px;
+}       
+.tb1{
+text-align: center;
+border-style: 1px solid black;
+}
+.line1{
+    border-color: black;
+    background-color: beige;
+}
+h1{
+    background-color: aquamarine;
+    width:900px;
+    text-align: center;
+}
+h3{
+    width: 900px;
+    background-color: cadetblue;
+    text-align: center;
+}
+p{
+    text-align: center;
+}
